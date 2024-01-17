@@ -1,0 +1,72 @@
+.textContent{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    color: yellow;
+    margin:50px ;
+}
+#title-Ola{
+    display: flex;
+  
+    text-align: start;
+    font-size: 25pt;
+}
+
+
+.menu-option{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: yellow;
+    margin-top: 50px;
+    transition: 0.5s;
+    
+}
+.menu-option :hover{
+    scale: 1.1;
+    cursor: pointer;
+    transition: 0.5s;
+    color: greenyellow;
+}
+
+#linha{
+    height: 5px;
+    width: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+
+    background-color: yellow;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.footer-menu{
+    display: flex;
+    color: yellow;
+
+    font-size: 25pt;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#img{
+    display: flex;
+    align-a;
+    height: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px black;
+    transition: 0.5s;
+}
+
+#img:hover{
+    scale: 1.1;
+    transition: 0.5s;
+}
+.container{
+    height: 300px;
+}
